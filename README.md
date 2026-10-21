@@ -29,6 +29,8 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
+Если PowerShell отказывается запускать `Activate.ps1` (политика выполнения скриптов), выполните `Set-ExecutionPolicy -Scope Process Bypass` и повторите. Либо пропустите активацию и вызывайте `.venv\Scripts\python -m pip install -r requirements.txt` и `.venv\Scripts\python -m uvicorn app.main:app --reload`.
+
 **Linux / macOS:**
 
 ```bash
