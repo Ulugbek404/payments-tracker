@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+.env
+
+# personal working notes, not part of the submission
+AI_LOG.md
+SQL_TUSHUNTIRISH.md
